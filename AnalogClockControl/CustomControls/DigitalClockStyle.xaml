@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:AnalogClockControl.CustomControls">
+
+    <Style TargetType="local:DigitalClock">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:DigitalClock">
+                    <ControlTemplate.Resources>
+                        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+                    </ControlTemplate.Resources>
+                    <StackPanel Orientation="Horizontal">
+                        <Line x:Name="lnSecond" Visibility="{TemplateBinding ShowSeconds}"></Line>
+                        <TextBlock Text="{Binding TimeClock.Hour, RelativeSource={RelativeSource TemplatedParent}}"></TextBlock>
+                        <TextBlock x:Name="Colon" Text=":"></TextBlock>
+                        <TextBlock Text="{Binding TimeClock.Minute, RelativeSource={RelativeSource TemplatedParent}}"></TextBlock>
+                        <TextBlock Text=":" Visibility="{TemplateBinding ShowSeconds, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                        <TextBlock Text="{Binding TimeClock.Second, RelativeSource={RelativeSource TemplatedParent}}" Visibility="{TemplateBinding ShowSeconds, Converter={StaticResource BooleanToVisibilityConverter}}"></TextBlock>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

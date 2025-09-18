@@ -1,0 +1,60 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:AnalogClockControl.CustomControls">
+    <!-- Création du style visuel de notre horloge-->
+    <Style TargetType="local:AnalogClock">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:AnalogClock">
+                    <ControlTemplate.Resources>
+                        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"></BooleanToVisibilityConverter>
+                        <!-- Ajout d'un template Binding dans lnSecond-->
+                    </ControlTemplate.Resources>
+                    <Grid x:Name="Clock" RenderTransformOrigin="0.5 0.5">
+                        <Grid.RenderTransform >
+                            <RotateTransform Angle="90"/>
+                        </Grid.RenderTransform>
+
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="TimeStates">
+                                <VisualState x:Name="Day">
+                                    <!-- Les differents etats fonctionnent avec des story board, attention au changement de property, certains ont des brushs et pas des Colors-->
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="ClockFill" Storyboard.TargetProperty="Color" To="SkyBlue"></ColorAnimation>
+                                        <ColorAnimation Storyboard.TargetName="lnHourStroke" Storyboard.TargetProperty="Color" To="Black"></ColorAnimation>
+                                        <ColorAnimation Storyboard.TargetName="lnSecondStroke" Storyboard.TargetProperty="Color" To="Red"></ColorAnimation>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Night">
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="ClockFill" Storyboard.TargetProperty="Color" To="BlueViolet"></ColorAnimation>
+                                        <ColorAnimation Storyboard.TargetName="lnHourStroke" Storyboard.TargetProperty="Color" To="Gold"></ColorAnimation>
+                                        <ColorAnimation Storyboard.TargetName="lnSecondStroke" Storyboard.TargetProperty="Color" To="Silver"></ColorAnimation>
+                                        <DoubleAnimation Storyboard.TargetName="Clock" Storyboard.TargetProperty="Opacity" To="20"></DoubleAnimation>
+
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Ellipse x:Name="Border" Stroke="Black" StrokeThickness="2" Width="220" Height="220">
+                            <Ellipse.Fill>
+                                <SolidColorBrush x:Name="ClockFill" Color="White"></SolidColorBrush>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <Line x:Name="lnHour" StrokeThickness="1" VerticalAlignment="Center" HorizontalAlignment="Center" X1="0" X2="-75">
+                            <Line.Stroke>
+                                <SolidColorBrush x:Name="lnHourStroke" Color="Black"></SolidColorBrush>
+                            </Line.Stroke>
+                        </Line>
+                        <Line x:Name="lnMinute" Stroke="Black" StrokeThickness="1" VerticalAlignment="Center" HorizontalAlignment="Center" X1="0" X2="-100"></Line>
+                        <Line x:Name="lnSecond" Visibility="{TemplateBinding ShowSeconds, Converter={StaticResource BooleanToVisibilityConverter}}" StrokeThickness="1" VerticalAlignment="Center" HorizontalAlignment="Center" X1="0" X2="-50">
+                            <Line.Stroke>
+                                <SolidColorBrush x:Name="lnSecondStroke" Color="Red"></SolidColorBrush>
+                            </Line.Stroke>
+                        </Line>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

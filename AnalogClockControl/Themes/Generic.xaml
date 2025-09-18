@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:AnalogClockControl.CustomControls"
+                   >
+
+    <!-- Generic DOIT être dans le dossier Themes, c'est lui qui permet la liaison entre la MainWindow et les controller-->
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/AnalogClockControl;component/CustomControls/AnalogClockStyle.xaml"/>
+        <ResourceDictionary Source="/AnalogClockControl;component/CustomControls/DigitalClockStyle.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
