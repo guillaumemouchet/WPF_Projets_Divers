@@ -22,3 +22,6 @@ C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\Anal
 C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.csproj.CoreCompileInputs.cache
 C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.genruntimeconfig.cache
 C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\ref\AnalogClockControl.dll
+C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.sourcelink.json
+C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\CustomControls\ControllableClock.g.cs
+C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\CustomControls\ControllableClock.baml

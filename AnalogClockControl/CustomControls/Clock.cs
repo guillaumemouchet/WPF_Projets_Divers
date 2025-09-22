@@ -14,11 +14,8 @@ namespace AnalogClockControl.CustomControls
     public class Clock : Control
     {
 
-        //Utilisation de DependencyProperty pour le stockage du temps, permet des animations et du binding                                                                                                                 //Fait planter le programme sinon                     
-        public static readonly DependencyProperty TimeClockProperty = DependencyProperty.Register("TimeClock", typeof(DateTime), typeof(Clock), new PropertyMetadata(DateTime.Now, TimePropertyChanged, TimeCoerceValue)); //, TimeValidateValue);
-
-
-
+        //Utilisation de DependencyProperty pour le stockage du temps, permet des animations et du binding                                                                                              //Permet une verification avant appel //Fait planter le programme sinon                     
+        public static readonly DependencyProperty TimeClockProperty = DependencyProperty.Register("TimeClock", typeof(DateTime), typeof(Clock), new PropertyMetadata(DateTime.Now, TimePropertyChanged));//, TimeCoerceValue));                //, TimeValidateValue);
 
 
         //Delegate décrit la signature de la méthode que tu aimerais passer

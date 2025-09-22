@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="AnalogClockControl.CustomControls.ControllableClock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AnalogClockControl.CustomControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!-- compose control that we want together-->
+    <Border BorderThickness="2" BorderBrush="DimGray" CornerRadius="5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <CheckBox Grid.Row="0" x:Name="cbFlipCard" VerticalAlignment="Top" HorizontalAlignment="Right">Change the visual</CheckBox>
+            <Grid Grid.Row="0" Margin="50">
+                <Grid.Style>
+                    <Style TargetType="Grid">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsChecked, ElementName=cbFlipCard}" Value="True">
+                                <Setter Property="Visibility" Value="Hidden"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>
+
+                <ContentControl Content="{Binding Clock, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
+            </Grid>
+
+            <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.Style>
+                    <Style TargetType="Grid">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsChecked, ElementName=cbFlipCard}" Value="False">
+                                <Setter Property="Visibility" Value="Hidden"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>
+
+                <CheckBox Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="{Binding Clock.ShowSeconds, RelativeSource={RelativeSource AncestorType=UserControl}}" Content="Show Seconds"/>
+            </Grid>
+        </Grid>
+        
+    </Border>
+</UserControl>

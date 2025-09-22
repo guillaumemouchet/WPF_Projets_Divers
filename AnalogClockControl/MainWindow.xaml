@@ -11,15 +11,30 @@
 
     <Grid>
 
-        <StackPanel Orientation="Vertical">
+        <!--<StackPanel Orientation="Vertical">
             <custom:AnalogClock ShowSeconds="True" TimeChanged="AnalogClock_TimeChanged"/>
-            <!-- Ca veut pas mais ça fonctionne-->
-            <!--Creating a Routed event-->
+         
+            Creating a Routed event
             <TextBlock x:Name="tbTime" FontSize="50" Text="00:00:00" HorizontalAlignment="Center"/>
             <custom:DigitalClock ShowSeconds="False" ColonBlink="True" FontSize="50" HorizontalAlignment="Center"/>
             <custom:DigitalClock ShowSeconds="True" ColonBlink="False" FontSize="50" HorizontalAlignment="Center"/>
 
+        </StackPanel>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <custom:AnalogClock Grid.Row="0" ShowSeconds="True"/>
+        <custom:DigitalClock Grid.Row="1" Margin=" 0 10 0 0" FontSize="36" HorizontalAlignment="Center"/>
+        <!-- Ne fonctionne plus avec la nouvelle version de code qui rend le tout responsif.
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <custom:ControllableClock>
+                <custom:ControllableClock.Clock>
+                    <custom:AnalogClock FontSize="40"></custom:AnalogClock>
+                </custom:ControllableClock.Clock>
+            </custom:ControllableClock>
         </StackPanel>
+        -->
 
     </Grid>
 </Window>
