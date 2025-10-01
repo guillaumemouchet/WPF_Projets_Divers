@@ -24,17 +24,19 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        <custom:AnalogClock Grid.Row="0" ShowSeconds="True"/>
+        <custom:AnalogClock Grid.Row="0" ShowSeconds="True" />
         <custom:DigitalClock Grid.Row="1" Margin=" 0 10 0 0" FontSize="36" HorizontalAlignment="Center"/>
+        
         <!-- Ne fonctionne plus avec la nouvelle version de code qui rend le tout responsif.
+        Je pense qu'il peut plus déterminer la taille car on dépend d'une "Box" et plus de la window-->
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <custom:ControllableClock>
                 <custom:ControllableClock.Clock>
-                    <custom:AnalogClock FontSize="40"></custom:AnalogClock>
+                    <custom:AnalogClock FontSize="40"/>
                 </custom:ControllableClock.Clock>
             </custom:ControllableClock>
         </StackPanel>
-        -->
+
 
     </Grid>
 </Window>

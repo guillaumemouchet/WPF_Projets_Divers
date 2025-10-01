@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\analogclockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\analogclockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\converters\\greaterthanmulticonverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:converters\\greaterthanmulticonverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\digitalclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\digitalclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\timechangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\timechangedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\clock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\clock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\converters\\divisionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:converters\\divisionconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\digitalclockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\digitalclockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -11,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\controllableclock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\analogclockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\analogclockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\analogclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\analogclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\digitalclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\digitalclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume\\source\\repos\\analogclockcontrol\\customcontrols\\analogclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\analogclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +58,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:14:38.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DigitalClockStyle.xaml",
+              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\DigitalClockStyle.xaml",
+              "RelativeDocumentMoniker": "CustomControls\\DigitalClockStyle.xaml",
+              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\DigitalClockStyle.xaml",
+              "RelativeToolTip": "CustomControls\\DigitalClockStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T12:47:43.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DivisionConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\Converters\\DivisionConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\DivisionConverter.cs",
+              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\Converters\\DivisionConverter.cs",
+              "RelativeToolTip": "Converters\\DivisionConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:31:11.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GreaterThanMultiConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\Converters\\GreaterThanMultiConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\GreaterThanMultiConverter.cs",
+              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\Converters\\GreaterThanMultiConverter.cs",
+              "RelativeToolTip": "Converters\\GreaterThanMultiConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:30:59.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Clock.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\Clock.cs",
+              "RelativeDocumentMoniker": "CustomControls\\Clock.cs",
+              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\Clock.cs",
+              "RelativeToolTip": "CustomControls\\Clock.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADgv10AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T10:35:36.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AnalogClockStyle.xaml",
               "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\AnalogClockStyle.xaml",
               "RelativeDocumentMoniker": "CustomControls\\AnalogClockStyle.xaml",
@@ -50,66 +135,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ControllableClock.xaml",
-              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\ControllableClock.xaml",
-              "RelativeDocumentMoniker": "CustomControls\\ControllableClock.xaml",
-              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\ControllableClock.xaml",
-              "RelativeToolTip": "CustomControls\\ControllableClock.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-22T09:21:39.9Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "DigitalClock.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\DigitalClock.cs",
+              "RelativeDocumentMoniker": "CustomControls\\DigitalClock.cs",
+              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\DigitalClock.cs",
+              "RelativeToolTip": "CustomControls\\DigitalClock.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:21:32.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "TimeChangedEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\TimeChangedEventArgs.cs",
+              "RelativeDocumentMoniker": "CustomControls\\TimeChangedEventArgs.cs",
+              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\TimeChangedEventArgs.cs",
+              "RelativeToolTip": "CustomControls\\TimeChangedEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:02:52.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-18T13:48:13.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T13:48:13.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "ControllableClock.xaml",
+              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\ControllableClock.xaml",
+              "RelativeDocumentMoniker": "CustomControls\\ControllableClock.xaml",
+              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\ControllableClock.xaml",
+              "RelativeToolTip": "CustomControls\\ControllableClock.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-22T09:21:39.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwBgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:19:12.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T12:19:12.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "AnalogClock.cs",
               "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\AnalogClock.cs",
               "RelativeDocumentMoniker": "CustomControls\\AnalogClock.cs",
               "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\AnalogClock.cs",
               "RelativeToolTip": "CustomControls\\AnalogClock.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwDgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:51:24.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DigitalClock.cs",
-              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\DigitalClock.cs",
-              "RelativeDocumentMoniker": "CustomControls\\DigitalClock.cs",
-              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\AnalogClockControl\\CustomControls\\DigitalClock.cs",
-              "RelativeToolTip": "CustomControls\\DigitalClock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T13:21:32.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:51:24.816Z"
             }
           ]
         }

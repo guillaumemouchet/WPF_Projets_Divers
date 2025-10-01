@@ -24,7 +24,7 @@ namespace AnalogClockControl.CustomControls
 
         public override void OnApplyTemplate()
         {
-            colon = (UIElement)Template.FindName("Colon", this); // TODO CREATE COLON SOMEWHRER
+            colon = (UIElement)Template.FindName("Colon", this);
 
             if (colon == null){
                 MessageBox.Show("Empty colon, wasn't found and stayed null", "Error happend");

@@ -10,7 +10,6 @@
                         <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
                     </ControlTemplate.Resources>
                     <StackPanel Orientation="Horizontal">
-                        <Line x:Name="lnSecond" Visibility="{TemplateBinding ShowSeconds}"></Line>
                         <TextBlock Text="{Binding TimeClock.Hour, StringFormat=D2, RelativeSource={RelativeSource TemplatedParent}}"></TextBlock>
                         <TextBlock x:Name="Colon" Text=":"></TextBlock>
                         <TextBlock Text="{Binding TimeClock.Minute, StringFormat=D2, RelativeSource={RelativeSource TemplatedParent}}"></TextBlock>

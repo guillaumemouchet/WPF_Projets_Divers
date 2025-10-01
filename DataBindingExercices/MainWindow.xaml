@@ -1,0 +1,250 @@
+﻿<Window x:Class="DataBindingExercices.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBindingExercices"
+        xmlns:customs="clr-namespace:DataBindingExercices.CustomControls" xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:converter="clr-namespace:DataBindingExercices.CustomConverters"
+        mc:Ignorable="d"
+        Title="DataBinding" Height="450" Width="800"
+        >
+
+    <Window.Resources>
+        <customs:ChienListBox x:Key="Chienslb"/>
+        <ObjectDataProvider x:Key="Menu" MethodName="GetValues" ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:TestEnums"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <converter:EnumDescriptionConverter x:Key="EnumDescriptionConverter"/>
+        <converter:ValueCalculatorConverter x:Key="ValueCalculatorConverter"/>
+    </Window.Resources>
+
+
+    <!--#region Exercice 1-->
+    <!-- <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" MinWidth="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Grid.Column="2" x:Name="TextToBind"></TextBox>
+            <TextBlock Grid.Column="1" Text="{Binding Path=Text, ElementName=TextToBind}" FontSize="40" TextWrapping="Wrap"></TextBlock>
+            <TextBlock Grid.Column="0" Text="Name : " FontSize="40" TextWrapping="Wrap" MinWidth="200"></TextBlock>
+        </Grid>-->
+    <!--#endregion -->
+    <!--#region Exercice 2-->
+    <!--<StackPanel Margin="10">
+            <StackPanel.Resources>
+                <Style TargetType="Rectangle">
+                    <Setter Property="Width" Value="50"/>
+                    <Setter Property="Height" Value="100"/>
+                    <Setter Property="Stroke" Value="Black"/>
+                    <Setter Property="StrokeThickness" Value="2"/>
+                    <Setter Property="Margin" Value="10"/>
+                </Style>
+            </StackPanel.Resources>
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Label Content="Choose your angle : "/>
+                <TextBox Width="100" x:Name="tbAngle" TextAlignment="Left" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="1" Grid.Column="0" Content="Before" FontWeight="Bold" HorizontalAlignment="Center" />
+                <Label Grid.Row="1" Grid.Column="1" Content="After" FontWeight="Bold" HorizontalAlignment="Center" />
+
+                <Rectangle Grid.Row="2" Grid.Column="0" Fill="Red" x:Name="rectBefore"/>
+
+                <Rectangle Grid.Row="2" Grid.Column="1" Fill="Blue" x:Name="rectAfter">
+                    <Rectangle.RenderTransform>
+                        <RotateTransform Angle="{Binding Path=Text, ElementName=tbAngle}"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+            </Grid>
+        </StackPanel>-->
+    <!--#endregion-->
+    <!--#region Exercice 3-->
+    <!--<Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" x:Name="lblName" Content="{Binding Path=Text, ElementName=tbName}"></Label>
+
+        <TextBox Grid.Row="1" x:Name="tbName" Text="{Binding Name, Mode=TwoWay}"/>
+
+        <Label Grid.Row="0" Grid.Column="1" x:Name="lblRace" Content="{Binding Path=Text, ElementName=tbRace}"></Label>
+
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="tbRace" Text="{Binding Race, Mode=OneWay}"/>
+
+        <Button Grid.Row="2" Grid.Column="0" Click="Button_Click"></Button>
+
+        <ListBox Grid.Row="2" Grid.Column="1" ItemsSource="{Binding Source={StaticResource Chienslb}, Path=Chiens, Mode=TwoWay}" DisplayMemberPath="Name"></ListBox>-->
+    <!--#endregion-->
+    <!--#region Menu déroulant et Enum-->
+    <!--<Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        <ListBox x:Name="tbMenu" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Source={StaticResource Menu}}" SelectedIndex="0" Margin="10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Converter={StaticResource EnumDescriptionConverter}}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Grid.Row="1" Grid.Column="2" Content="{Binding Path=SelectedItem, ElementName=tbMenu}"></Label>
+       -->
+    <!--endregion-->
+    <!--#region Template Menu-->
+    <!--<StackPanel>
+        <Menu VerticalAlignment="Top">
+        <MenuItem Header="File">
+            <MenuItem Header="Open"/>
+            <MenuItem Header="Close"/>
+            <Separator/>
+            <MenuItem Header="Exit" 
+                          Click="Exit_Click"/>
+        </MenuItem>
+        <MenuItem Header="Edit">
+            <MenuItem Header="Copy"
+                          Command="ApplicationCommands.Copy"/>
+            <MenuItem Header="Paste"
+                          Command="ApplicationCommands.Paste"/>
+            
+        </MenuItem>
+        <MenuItem Header="Font">
+            <MenuItem x:Name="Bold" Header="Bold" IsCheckable="True" Click="Font_Click"/>
+                <MenuItem x:Name="Italic" Header="Italic" IsCheckable="True" Click="Font_Click"/>
+        </MenuItem>
+        <MenuItem Header="About">
+            <MenuItem Header="About">
+                <MenuItem Header="Sub Menu"/>
+            </MenuItem>
+        </MenuItem>
+
+
+    </Menu>
+
+
+        <TextBox x:Name="tb1" FontSize="40" ></TextBox>
+        <TextBox x:Name="tb2" FontSize="40" ></TextBox>
+    </StackPanel>-->
+    <!--endregion-->
+    <!--#region Tempalte Menu from Data-->
+   <!-- <StackPanel>
+        <Menu x:Name="MenuData" IsMainMenu="True">
+            <Menu.ItemContainerStyle>
+                <Style TargetType="{x:Type MenuItem}">
+                    Nous permet de définir l'affichage au lieu du ToString override
+                    <Setter Property="Header" Value="{Binding Race}"></Setter>
+                    <Setter Property="Command" Value="{Binding Action}"></Setter>
+                </Style>
+            </Menu.ItemContainerStyle>
+        </Menu>
+
+
+        <Label x:Name="lblName" FontSize="40">Test</Label>
+        <Label x:Name="lblRace" FontSize="40">Test</Label>
+        
+    </StackPanel>-->
+    <!--#endregion-->   
+    <!--#region Multibinding Version simplifiée-->
+<!--    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="Number1" Grid.Row="0" Grid.Column="0"/>
+        <TextBox x:Name="Number2" Grid.Row="0" Grid.Column="1"/>
+        <TextBlock x:Name="Result" Grid.Row="1" Grid.Column="0">
+            <TextBlock.Text>
+                <MultiBinding Converter="{StaticResource ValueCalculatorConverter}">
+                    <Binding ElementName="Number1" Path="Text"/>
+                    <Binding ElementName="Number2" Path="Text"/>
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+
+        <Button Grid.Column="1" Grid.Row="1" Margin="30" Click="Lire_Click"> Get the result</Button>
+    </Grid>-->
+    
+    <!--#endregion-->
+
+    <!--#region Multibinding MVVM mais avec Converter qui fait la logique (faux)-->
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Row="0" Grid.Column="0" Text="{Binding Path=Number1, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Path=Number2, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row="1" Grid.Column="0">
+            <TextBlock.Text>
+                Uniquement à but d'affichage, Si on voulait vraiment utiliser ça ailleurs
+                ça serait mieux de passer par le ViewModel
+                <MultiBinding Converter="{StaticResource ValueCalculatorConverter}">
+                    <Binding Path="Number1"/>
+                    <Binding Path="Number2"/>
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+
+        <Button Grid.Column="1" Grid.Row="1" Margin="30" Click="Lire_Click">Get the result</Button>
+    </Grid>-->
+
+    <!--#endregion-->
+
+    <!--#region Multibinding MVVM-->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Row="0" Grid.Column="0" Text="{Binding Path=Number1, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Path=Number2, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding Path=Result}"/>
+    </Grid>
+
+    <!--#endregion-->
+</Window>
