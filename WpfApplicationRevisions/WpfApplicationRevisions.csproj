@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Temp code.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Temp code.cs" />
+  </ItemGroup>
+
 </Project>

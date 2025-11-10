@@ -1,0 +1,20 @@
+﻿AnalogClockControl
+
+
+winexe
+C#
+.cs
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Release\net8.0-windows\
+AnalogClockControl
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\App.xaml
+52142199701
+
+111674658821
+198-1127337667
+CustomControls\AnalogClockStyle.xaml;CustomControls\ControllableClock.xaml;CustomControls\DigitalClockStyle.xaml;MainWindow.xaml;Themes\Generic.xaml;
+
+True
+

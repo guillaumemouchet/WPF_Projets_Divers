@@ -25,3 +25,30 @@ C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\ref\
 C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.sourcelink.json
 C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\CustomControls\ControllableClock.g.cs
 C:\Users\Guillaume\source\repos\AnalogClockControl\obj\Debug\net8.0-windows\CustomControls\ControllableClock.baml
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\bin\Debug\net8.0-windows\AnalogClockControl.exe
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\bin\Debug\net8.0-windows\AnalogClockControl.deps.json
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\bin\Debug\net8.0-windows\AnalogClockControl.runtimeconfig.json
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\bin\Debug\net8.0-windows\AnalogClockControl.dll
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\bin\Debug\net8.0-windows\AnalogClockControl.pdb
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\CustomControls\ControllableClock.g.cs
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl_MarkupCompile.cache
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl_MarkupCompile.lref
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\CustomControls\AnalogClockStyle.baml
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\CustomControls\ControllableClock.baml
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\CustomControls\DigitalClockStyle.baml
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\Themes\Generic.baml
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.g.resources
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.AssemblyInfoInputs.cache
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.AssemblyInfo.cs
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.csproj.CoreCompileInputs.cache
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.sourcelink.json
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.dll
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\refint\AnalogClockControl.dll
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.pdb
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\AnalogClockControl.genruntimeconfig.cache
+C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\AnalogClockControl\obj\Debug\net8.0-windows\ref\AnalogClockControl.dll

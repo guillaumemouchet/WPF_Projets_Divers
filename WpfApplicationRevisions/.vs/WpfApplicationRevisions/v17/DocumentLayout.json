@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\",
+  "WorkspaceRootPath": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume\\source\\repos\\wpfapplicationrevisions\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume\\source\\repos\\wpfapplicationrevisions\\mycustomcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|solutionrelative:mycustomcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume\\source\\repos\\wpfapplicationrevisions\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\wpfapplicationrevisions\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume\\source\\repos\\wpfapplicationrevisions\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\wpfapplicationrevisions\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\wpfapplicationrevisions\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\wpfapplicationrevisions\\mycustomcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|solutionrelative:mycustomcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\wpfapplicationrevisions\\wpfapplicationrevisions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16FED80B-7ACB-4EDA-A425-5F80597A0845}|WpfApplicationRevisions.csproj|solutionrelative:wpfapplicationrevisions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "WpfApplicationRevisions",
+              "DocumentMoniker": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\WpfApplicationRevisions.csproj",
+              "RelativeDocumentMoniker": "WpfApplicationRevisions.csproj",
+              "ToolTip": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\WpfApplicationRevisions.csproj",
+              "RelativeToolTip": "WpfApplicationRevisions.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T13:32:33.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MyCustomControl.cs",
-              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\MyCustomControl.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\MyCustomControl.cs",
               "RelativeDocumentMoniker": "MyCustomControl.cs",
-              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\MyCustomControl.cs",
+              "ToolTip": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\MyCustomControl.cs",
               "RelativeToolTip": "MyCustomControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T09:20:34.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\Person.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\Person.cs",
               "RelativeDocumentMoniker": "Person.cs",
-              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\Person.cs",
+              "ToolTip": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\Person.cs",
               "RelativeToolTip": "Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,11 +73,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-09-16T12:53:45.006Z",
@@ -68,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Guillaume\\source\\repos\\WpfApplicationRevisions\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\WpfApplicationRevisions\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T12:53:40.745Z",
               "EditorCaption": ""

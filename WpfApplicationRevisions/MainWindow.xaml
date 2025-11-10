@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="WPF Learning" Height="450" Width="800"
         ShowInTaskbar="True"
-        Icon="C:/Users/Guillaume/source/repos/WpfApplicationRevisions/Resources/C.png" 
+        Icon="C:\Users\Guillaume Mouchet\source\repos\WPF_Projets_Divers\WpfApplicationRevisions\Resources\C.png" 
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         Closing="OnClose_MainWindow">
@@ -30,6 +30,7 @@
             <GradientStop Offset="1" Color="Gold"/>
         </LinearGradientBrush>
     </Window.Resources>
+
     <Grid Name="pnlMainGrid" MouseUp="pnlMainGrid_MouseUp" Background="ForestGreen">
 
         <!-- Affichage des Resources static dans du texte-->
@@ -43,7 +44,7 @@
             <ComboBox x:Name="cbxResources" ItemsSource="{StaticResource ComboBoxItems}" SelectedIndex="0" Height="30" Width="160" VerticalAlignment="Center"/>
         </StackPanel>
 
-        <StackPanel Margin="20" VerticalAlignment="Bottom">
+       <StackPanel Margin="20" VerticalAlignment="Bottom">
             <TextBlock Text="{Binding Name}" FontWeight="Bold" Margin="0,10,0,0"/>
             <TextBox Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="20" Width="532" />
         </StackPanel>
@@ -71,8 +72,10 @@
             </WrapPanel>
         </Button.Content>
         </Button>-->
+        
+      
         <Button Click="OpenWindow_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15">Open another Window!</Button>
-
+        
 
     </Grid>
 </Window>
