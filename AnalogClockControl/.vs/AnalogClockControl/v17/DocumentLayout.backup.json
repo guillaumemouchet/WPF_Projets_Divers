@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\AnalogClockControl\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\analogclockcontrol\\customcontrols\\analogclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\analogclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\analogclockcontrol\\customcontrols\\clock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\clock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\analogclockcontrol\\customcontrols\\analogclockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\analogclockstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\analogclockcontrol\\customcontrols\\analogclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|solutionrelative:customcontrols\\analogclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB670C7-4969-4639-BAA9-FC6228D955CA}|AnalogClockControl.csproj|c:\\users\\guillaume mouchet\\source\\repos\\wpf_projets_divers\\analogclockcontrol\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Clock.cs",
               "DocumentMoniker": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\AnalogClockControl\\CustomControls\\Clock.cs",
               "RelativeDocumentMoniker": "CustomControls\\Clock.cs",
               "ToolTip": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\AnalogClockControl\\CustomControls\\Clock.cs",
               "RelativeToolTip": "CustomControls\\Clock.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAADIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAADIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T13:24:26.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AnalogClockStyle.xaml",
               "DocumentMoniker": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\AnalogClockControl\\CustomControls\\AnalogClockStyle.xaml",
               "RelativeDocumentMoniker": "CustomControls\\AnalogClockStyle.xaml",
@@ -59,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AnalogClock.cs",
               "DocumentMoniker": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\AnalogClockControl\\CustomControls\\AnalogClock.cs",
               "RelativeDocumentMoniker": "CustomControls\\AnalogClock.cs",
               "ToolTip": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\AnalogClockControl\\CustomControls\\AnalogClock.cs",
               "RelativeToolTip": "CustomControls\\AnalogClock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T13:22:20.249Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T13:22:11.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T13:22:11.354Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "ToolTip": "C:\\Users\\Guillaume Mouchet\\source\\repos\\WPF_Projets_Divers\\AnalogClockControl\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-10T13:20:55.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T13:20:55.285Z"
             }
           ]
         }
